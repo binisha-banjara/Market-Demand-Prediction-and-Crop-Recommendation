@@ -56,6 +56,4 @@ with pdfplumber.open(pdf_path) as pdf:
 
 initial_df.to_csv(output_csv_path, index=False)
 
-print(
-    f"Tables extracted successfully from pages {start_page} to {end_page} and saved to {output_csv_path}."
-)
+print(f"Tables extracted successfully from pages {start_page} to {end_page} and saved to {output_csv_path}.")
